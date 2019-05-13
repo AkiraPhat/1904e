@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <h1>Thẻ biểu mẫu form trong html</h1>
+    <pre>
+        *** Thẻ form có 3 thuộc tính quan trọng
+        name: tên của form
+         method : mang 2 giá trị post hoặc get ( khi học php )
+        action : địa chỉ mà form sẽ gửi dữ liệu đến
+        *** thẻ input
+        có type="text" => văn bản
+        thẻ input có thuộc tính name ( tên của input )
+        value="" ( giá trị của ô input )
+        placeholder="" ( hướng dẫn cho người dùng hiểu ô input làm gì nó sẽ xuất hiện khi mà chưa nhập
+        giá trị vào ô input đó )
+        *** thẻ label là thẻ nhãn
+    </pre>
+    <form action="" method="post" name="register">
+        <div style="padding: 10px">
+            <label >Họ tên</label>
+            <input type="text" name="name" value="" placeholder="Nhập họ tên vào đây">
+        </div>
+        <div style="padding: 10px">
+            <label>SĐT</label>
+            <input type="text" name="phone" value="" placeholder="Nhập số điện thoại">
+            <button type="button">Gửi mã xác thực </button>
+        </div>
+    </form>
+</body>
+</html>
