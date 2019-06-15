@@ -12,10 +12,7 @@
 <body>
 
     <pre>
-         Sự kiện click chuột trong js
-        $("#btn1") : chọn ID
-        $("div") : chọn tên thẻ
-        $(".target") : chọn class
+        Sự kiện double click
     </pre>
 
     <div class="target">
@@ -25,7 +22,7 @@
     <button id="btn1">Click here</button>
     <script type="text/javascript">
         $(document).ready(function () {
-            $("#btn1").click(function () {
+            $("#btn1").dblclick(function () {
                 $(".target").css("background","green");
             });
         });
