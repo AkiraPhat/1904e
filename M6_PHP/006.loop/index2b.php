@@ -11,44 +11,25 @@
 <body>
     <div class="container">
         <div class="row">
-            <div class="col-2">
-                <table>
+                <table class="table">
                     <thead>
                         <tr>
                             <th>STT</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>
-                                <?php
-                                for ($i=0; $i<=20;$i++)
-                                    echo $i.'<br/>'
-                                ?>
-                            </td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-            <div class="col-2">
-                <table>
-                    <thead>
-                        <tr>
                             <th>Tiêu đề</th>
                         </tr>
                     </thead>
                     <tbody>
-                    <tr>
-                        <td>
                             <?php
-                            for ($i=0; $i<=20;$i++)
-                                echo 'Bản ghi số '.$i.'<br/>'
+                            for ($i=1 ; $i <= 20; $i++) { ?>
+                                <tr>
+                                    <td><?php echo $i; ?></td>
+                                    <td>Bản ghi số <?php echo $i; ?></td>
+                                </tr>
+                                <?php
+                            }
                             ?>
-                        </td>
-                    </tr>
                     </tbody>
                 </table>
-            </div>
         </div>
     </div>
 
