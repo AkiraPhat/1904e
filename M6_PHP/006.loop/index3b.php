@@ -18,6 +18,7 @@
                         <th>Tiêu đề</th>
                     </tr>
                 </thead>
+
                 <tbody>
                     <?php
                         $i = 1;

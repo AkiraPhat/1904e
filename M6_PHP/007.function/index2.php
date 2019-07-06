@@ -10,7 +10,6 @@
 <body>
     <?php
 
-
         function counts($salary,$date){
             $salarymain = ($salary*$date)/24;
             return $salarymain;

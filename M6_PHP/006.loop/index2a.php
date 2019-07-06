@@ -18,6 +18,7 @@
                             <th>Tiêu đề</th>
                         </tr>
                     </thead>
+
                     <tbody>
                             <?php
                             for ($i=1; $i <= 20;$i++) {
