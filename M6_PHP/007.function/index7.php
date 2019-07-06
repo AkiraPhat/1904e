@@ -13,7 +13,9 @@
             $i = $i * 10;
             echo "<br> giá trị của biến i " . $i;
         }
+
         $x = 5;
+
         truyenthamtri($x);
         echo "<br>giá trị của biến x là $x";
     ?>

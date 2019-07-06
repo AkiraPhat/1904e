@@ -24,7 +24,9 @@
             $i = $i * 10 ;
             echo "<br> giá trị của biến i ". $i;
         }
+
         $x = 5;
+
         truyenthamchieu($x);
         echo "<br> Giá trị của biến x là $x";
     ?>
