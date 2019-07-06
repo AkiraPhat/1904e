@@ -11,7 +11,7 @@
 <body>
     <div class="container">
         <div class="row">
-            <div class="col-md-6">
+            <div class="col-2">
                 <table>
                     <thead>
                         <tr>
@@ -30,7 +30,7 @@
                     </tbody>
                 </table>
             </div>
-            <div class="col-md-6">
+            <div class="col-2">
                 <table>
                     <thead>
                         <tr>
