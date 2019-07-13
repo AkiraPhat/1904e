@@ -13,6 +13,7 @@ foreach ($array3 as $keyPeople => $people){
         if ($keyCrush == "fullname"){
             foreach ($crushinfo as $keyCrush => $crush)
             echo "<br>" . $crush;
+            echo "<hr>";
         }
     }
 }
