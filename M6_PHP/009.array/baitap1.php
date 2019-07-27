@@ -15,7 +15,7 @@
     <?php
     $arr3 = array();
     $arr3["japan"]=array("name"=>"nhật bản","city"=>array("tokyo"));
-    $arr3["china"]=array("name"=>"trung quốc","city"=>array("bắc kinh","thượng hải"));
+    $arr3["china"]=array("name"=>"trung quốc","city"=>array("bắc kinh","thượng hải","thành đô"));
     $arr3["vn"]=array("name"=>"việt nam","city"=>array("hà nội", "hồ chí minh","nam đinh","ninh bình","thái bình"
     ,"đồng nai"));
     foreach($arr3 as $keyCountry => $country) {
@@ -24,6 +24,7 @@
             if ($keyNames == "name") {
                 echo "<ul>";
                 echo "<li>" . $names;
+                echo "</ul>";
             } else
                 foreach ($country as $keyCities => $cities) {
                     echo "<ul>";
