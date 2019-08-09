@@ -19,16 +19,16 @@ include_once "config.php";
  */
 $id = (int) $_GET["id"];
 
-var_dump($id);
+//var_dump($id);
 $sqlSelect = "SELECT * FROM employees WHERE id=".$id;
 
 $result = $connection->query($sqlSelect);
 
 $row = $result->fetch_assoc();
 
-echo "<pre>";
-print_r($row);
-echo "</pre>";
+//echo "<pre>";
+//print_r($row);
+//echo "</pre>";
 ?>
 
 
