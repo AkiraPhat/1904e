@@ -72,7 +72,7 @@ if (isset($_POST) && !empty($_POST) && isset($_POST["employee_id"])) {
         $address = $_POST['address'];
         $salary = $_POST['salary'];
 
-        $sqlUpdate = "UPDATE employees SET name='$name',address='$address',salary=$salary WHERE id=$id";
+        $sqlUpdate = "Update employees SET name='$name',address='$address',salary=$salary WHERE id=$id";
         // Thực hiện câu SQL
 
         echo $sqlUpdate;
