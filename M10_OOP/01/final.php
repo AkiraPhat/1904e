@@ -89,7 +89,7 @@ class Student {
  * Khởi tạo đối tượng cụ thể của class
  * Sử dụng từ khóa new tên_class()
  */
-$trang = new Student("trang", "21", "bắc ninh");
+$trang = new Student("trang", "21", "thanh hóa");
 echo "<br> Gọi đến method printInfo() ";
 /**
  * Gọi 1 phương thức
@@ -98,9 +98,9 @@ $trang->printInfo();
 /**
  * Gọi 1 số thuộc tính bên trong class
  */
-echo "<br> In ra tên của sinh viên bên ngoài class " . $tuan->name;
-echo "<br> In ra tuổi của sinh viên bên ngoài class " . $tuan->age;
-echo "<br> In ra quê hương của sinh viên bên ngoài class " . $tuan->location;
+echo "<br> In ra tên của sinh viên bên ngoài class " . $trang->name;
+echo "<br> In ra tuổi của sinh viên bên ngoài class " . $trang->age;
+echo "<br> In ra quê hương của sinh viên bên ngoài class " . $trang->location;
 echo "<br> In ra cấu trúc của class";
 /**
  * Xem cấu trúc của 1 class
@@ -111,14 +111,14 @@ print_r($trang);
 echo "</pre>";
 // Gọi đến phương thức calculatePoint()
 $point = array(
-    'java' => 5,
-    'database' => 3,
-    'php' => 6,
-    'html' => 2,
-    'oop' => 7,
+    'java' => 9,
+    'database' => 8,
+    'php' => 10,
+    'html' => 7,
+    'oop' => 8,
     '.net' => 9
 );
 // gọi đến phương thức của class
 $trang->calculatePoint($point);
-echo "<br>diem trung binh : " . $trang->point;
+echo "<br>điểm trung bình : " . $trang->point;
 
