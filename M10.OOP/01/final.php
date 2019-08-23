@@ -30,7 +30,7 @@ class Student {
      * Còn phương thức method nằm trong class
      * method chính là hàm bên trong class
      */
-    public function _construct($name_param, $age_param , $location_param){
+    public function __construct($name_param, $age_param , $location_param){
 
         // Gán tham số truyền vào thuộc tính của class
 
@@ -94,7 +94,7 @@ echo "<br> Gọi đến method printInfo() ";
 /**
  * Gọi 1 phương thức
  */
-$tuan->printInfo();
+$trang->printInfo();
 /**
  * Gọi 1 số thuộc tính bên trong class
  */
