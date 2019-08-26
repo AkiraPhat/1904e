@@ -11,6 +11,7 @@ class Vuon {
        echo "<br>". __METHOD__;
     }
 }
+
 class Nguoi extends Vuon {
     public $hochieu;
 
