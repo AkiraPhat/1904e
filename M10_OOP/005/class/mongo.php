@@ -1,4 +1,8 @@
 <?php
+include_once "../interface/crud.php";
+include_once "../interface/log.php";
+include_once "../interface/search.php";
+include_once "../abstract/database.php";
 class Mongo extends Database implements Crud,Log,Search {
     public function connect()
     {
