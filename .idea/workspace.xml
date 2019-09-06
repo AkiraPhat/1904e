@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="71f2b12f-b065-4624-a8c6-0233c3992708" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/M10_OOP/006_trait/demo.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="71f2b12f-b065-4624-a8c6-0233c3992708" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,7 +32,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/M10_OOP/006_trait/demo.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1776">
+            <state relative-caret-position="912">
               <caret line="74" column="21" selection-start-line="74" selection-start-column="21" selection-end-line="74" selection-end-column="21" />
             </state>
           </provider>
@@ -262,7 +259,7 @@
       <workItem from="1567651933427" duration="38000" />
       <workItem from="1567670029004" duration="859000" />
       <workItem from="1567759215393" duration="939000" />
-      <workItem from="1567770413081" duration="6409000" />
+      <workItem from="1567770413081" duration="7191000" />
     </task>
     <task id="LOCAL-00008" summary="phien ban 1">
       <created>1560773076431</created>
@@ -611,11 +608,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="185454000" />
+    <option name="totallyTimeSpent" value="186236000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20196672" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -991,7 +987,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/M10_OOP/006_trait/demo.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1776">
+        <state relative-caret-position="912">
           <caret line="74" column="21" selection-start-line="74" selection-start-column="21" selection-end-line="74" selection-end-column="21" />
         </state>
       </provider>
