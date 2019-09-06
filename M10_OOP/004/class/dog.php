@@ -9,6 +9,12 @@ include_once "../interface/sinhsan.php";
  * bất kể class nào khi extend từ abstract class
  * thì phải viết lại code thực thi cho các method
  * abstract của class cha
+ *
+ *  abstract class : lớp trừ tượng
+ * extends : kế thừa
+ * interface : giao diện
+ * implements : thực thi
+ * method : phương thức
  */
 class Cho extends Dongvat implements An,Keu,Sinhsan {
     public function tenloai()
