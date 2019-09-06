@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="71f2b12f-b065-4624-a8c6-0233c3992708" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/M10_OOP/005/class/mongo.php" beforeDir="false" afterPath="$PROJECT_DIR$/M10_OOP/005/class/mongo.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/M10_OOP/006_trait/demo.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -31,47 +32,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/M10_OOP/005/abstract/database.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="48">
-              <caret line="2" column="39" selection-start-line="2" selection-start-column="39" selection-end-line="2" selection-end-column="39" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/M10_OOP/005/class/mongo.php">
+        <entry file="file://$PROJECT_DIR$/M10_OOP/006_trait/demo.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="59">
-              <caret line="9" column="8" lean-forward="true" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/M10_OOP/005/interface/crud.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="8" column="29" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/M10_OOP/005/interface/log.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="48">
-              <caret line="2" column="26" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/M10_OOP/005/interface/search.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="48">
-              <caret line="2" column="29" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
+            <state relative-caret-position="1776">
+              <caret line="74" column="21" selection-start-line="74" selection-start-column="21" selection-end-line="74" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -111,7 +76,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/baitap/index2.php" />
         <option value="$PROJECT_DIR$/M10.OOP/01/class1.php" />
         <option value="$PROJECT_DIR$/M10.OOP/01/class2.php" />
         <option value="$PROJECT_DIR$/M10.OOP/01/class3.php" />
@@ -162,6 +126,7 @@
         <option value="$PROJECT_DIR$/M10_OOP/005/interface/log.php" />
         <option value="$PROJECT_DIR$/M10_OOP/005/interface/search.php" />
         <option value="$PROJECT_DIR$/M10_OOP/005/class/mongo.php" />
+        <option value="$PROJECT_DIR$/M10_OOP/006_trait/demo.php" />
       </list>
     </option>
   </component>
@@ -193,28 +158,7 @@
               <item name="1904e" type="b2602c69:ProjectViewProjectNode" />
               <item name="1904e" type="462c0819:PsiDirectoryNode" />
               <item name="M10_OOP" type="462c0819:PsiDirectoryNode" />
-              <item name="005" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="1904e" type="b2602c69:ProjectViewProjectNode" />
-              <item name="1904e" type="462c0819:PsiDirectoryNode" />
-              <item name="M10_OOP" type="462c0819:PsiDirectoryNode" />
-              <item name="005" type="462c0819:PsiDirectoryNode" />
-              <item name="abstract" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="1904e" type="b2602c69:ProjectViewProjectNode" />
-              <item name="1904e" type="462c0819:PsiDirectoryNode" />
-              <item name="M10_OOP" type="462c0819:PsiDirectoryNode" />
-              <item name="005" type="462c0819:PsiDirectoryNode" />
-              <item name="class" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="1904e" type="b2602c69:ProjectViewProjectNode" />
-              <item name="1904e" type="462c0819:PsiDirectoryNode" />
-              <item name="M10_OOP" type="462c0819:PsiDirectoryNode" />
-              <item name="005" type="462c0819:PsiDirectoryNode" />
-              <item name="interface" type="462c0819:PsiDirectoryNode" />
+              <item name="006_trait" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -318,7 +262,7 @@
       <workItem from="1567651933427" duration="38000" />
       <workItem from="1567670029004" duration="859000" />
       <workItem from="1567759215393" duration="939000" />
-      <workItem from="1567770413081" duration="5097000" />
+      <workItem from="1567770413081" duration="6409000" />
     </task>
     <task id="LOCAL-00008" summary="phien ban 1">
       <created>1560773076431</created>
@@ -667,10 +611,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="184142000" />
+    <option name="totallyTimeSpent" value="185454000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20196672" />
@@ -705,13 +649,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="commit dau tien" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/M10_OOP/01/class7.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="45" column="49" selection-start-line="45" selection-start-column="49" selection-end-line="45" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/M10_OOP/01/final.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2520">
@@ -1049,6 +986,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="59">
           <caret line="9" column="8" lean-forward="true" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/M10_OOP/006_trait/demo.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1776">
+          <caret line="74" column="21" selection-start-line="74" selection-start-column="21" selection-end-line="74" selection-end-column="21" />
         </state>
       </provider>
     </entry>
